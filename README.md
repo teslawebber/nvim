@@ -2,7 +2,7 @@
 
 This is my third attempt at configuring neovim. As the name suggests this version of the configuration only includes things that I would term as absolute essentials for having a neovim setup for the purpose of programming and coding.  
 This is configuration is not meant to be used for non-programmers (though they can as there are plugins that even they would benefit from).  
-The reason to keep things to at bare minimum is to keep the neovim startup time as low as possible and easy maintaibality of the config.  
+The reason to keep things at a bare minimum is to keep the neovim startup time as low as possible and easy maintaibality of the config.  
 That is also the reason why I choose to keep everything in a single file.
 
 ## Plugin and list of plugins used
