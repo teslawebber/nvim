@@ -5,6 +5,13 @@ This is configuration is not meant to be used for non-programmers (though they c
 The reason to keep things at a bare minimum is to keep the neovim startup time as low as possible and easy maintaibality of the config.  
 That is also the reason why I choose to keep everything in a single file.
 
+# Getting started
+- Clone this repository in `~/.config` if you are on *nix/macos or `AppData\Local\` if you are on windows.
+- Enter the `nvim` directory and start neovim. Everything will get started on it's own (indicated by the lazy plugin popup).
+- And Voila!. You are all setup to get started.
+- If you want LSP support for language of your choice go `:Mason` and choose the one fullfilling your requirements.
+- For treesitter grammer `:TSInstall your-language-name`.
+
 ## Plugin and list of plugins used
 - Plugin manager: Lazy.nvim [lazy.nvim github repository](https://github.com/folke/lazy.nvim)  
 This is the plugin that people have been moving to from packer.nvim since it is now archived. It also has the features of lazy loading plugins withuot any configuration required by the user apart from the default.  You can also check out the [lazyvim](https://www.lazyvim.org/) if you want something that is already all setup with documentation.
@@ -22,7 +29,7 @@ This is the plugin that people have been moving to from packer.nvim since it is 
 - neovim-ayu
 
 ### File searching and fuzzy finding
-[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  
 For this telescope.nvim is used. It is easy to use and only has one dependency `ripgrep` which can be installed by package-manager of your operating system (yes, even on windows or macos). The default keybindings make sense based on mnemonics.
 
 ### LSP and code completion
