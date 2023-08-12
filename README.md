@@ -5,6 +5,10 @@ This is configuration is not meant to be used for non-programmers (though they c
 The reason to keep things at a bare minimum is to keep the neovim startup time as low as possible and easy maintaibality of the config.  
 That is also the reason why I choose to keep everything in a single file.
 
+# Dependencies
+- ripgrep (for live_grep in telescope.nvim)
+- neovim version 8.0 at the minimum compiled with LuaJIT (if installing manually)
+
 # Getting started
 - Clone this repository in `~/.config` if you are on *nix/macos or `AppData\Local\` if you are on windows.
 - Enter the `nvim` directory and start neovim. Everything will get started on it's own (indicated by the lazy plugin popup).
