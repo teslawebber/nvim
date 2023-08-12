@@ -43,6 +43,6 @@ The most simple way to setup LSP and code completion was introduced to me by The
 You can use any colorscheme you want. I added a colourscheme to differentiate between when I am using the shell and when I am using neovim visually without having to read anything on the screen.
 
 ### Why everything in a single file?
-- To make it easy to understand.
+- To make it easy to make changes and update things.
 - I can't understand and get seperate files to work with lazy.nvim.
 - **Yeah the second reason is not compelling I know.**
