@@ -7,7 +7,7 @@ That is also the reason why I choose to keep everything in a single file.
 
 # Dependencies
 - ripgrep (for live_grep in telescope.nvim)
-- neovim version 8.0 at the minimum compiled with LuaJIT (if installing manually)
+- neovim at least version 0.8 (compiled with LuaJIT if installing manually; neovim's github on how to install for your operating system)
 
 # Getting started
 - Clone this repository in `~/.config` if you are on *nix/macos or `AppData\Local\` if you are on windows.
