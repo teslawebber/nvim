@@ -181,6 +181,18 @@ cmp.setup({
     }
 })
 
+-- telescope configuration
+-- allows to grep in hidden files
+require("telescope").setup {
+    pickers = {
+        live_grep = {
+            additional_args = function(opts)
+                return {"--hidden"}
+            end
+        },
+    },
+}
+
 -- netrw appearance
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
