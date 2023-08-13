@@ -201,7 +201,10 @@ vim.g.netrw_winsize = 25
 -- remappings
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+vim.keymap.set("n", "<leader>u", function()
+	vim.cmd.UndotreeToggle() 
+	vim.cmd.UndotreeFocus()
+end)
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
